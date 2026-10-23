@@ -1,0 +1,24 @@
+# Step 2: is TIC 38699429 already known? Commands run 2026-10-22.
+## ExoFOP target page (fetched): _sources/exofop_target_38699429.html -> title: <title>ExoFOP - temporary maintenance
+## ExoFOP download_toi/download_ctoi (fetched now): same maintenance page, not saved
+## Local ExoFOP TOI/CTOI snapshots (2026-10-16 19:42): grep -c 38699429 toi.csv ctoi.csv ->
+/Users/advaitpaliwal/Scratch/planet-hunt/hz-south/_sources/ctoi.csv:0
+/Users/advaitpaliwal/Scratch/planet-hunt/hz-south/_sources/toi.csv:0
+## Local NASA PS snapshot ps.csv: 0
+## NASA Exoplanet Archive TAP toi table (_sources/nea_toi.csv):
+tid,toi,tfopwg_disp,pl_orbper
+
+## NASA Exoplanet Archive pscomppars (_sources/nea_ps.csv):
+pl_name,tic_id,pl_orbper
+
+## Eumemic: fresh clone github.com/eumemic/exoplanets HEAD + grep for TIC and Gaia DR3 ID (_sources/eumemic_exoplanets_HEAD.txt):
+e26c5071436e239f1a19528dc2973529d5a6c642 2026-10-21T19:26:27-07:00
+hits: 0 (no file names printed after HEAD line)
+## Local eumemic-check: grep -rl 38699429 ~/Scratch/planet-hunt/eumemic-check ->        0 files
+## SPOC 2-min TCE tables (hz-south/_sources/tce,      134 files):        0 hits
+## TESS-SPOC FFI DV (MAST HLSP s0056-s0069): EXISTS -> _sources/tess-spoc_dv_dvr.xml, parsed in evidence/02b_tess_spoc_tce_params.txt
+## VizieR within 120 arcsec (evidence/02_catalogs_raw.json): VSX B/vsx 0 rows, Gaia DR3 EB I/358/veb 0, Gaia DR3 variable classes I/358/vclassre 0
+tid,toi
+150428135,"700.01"
+150428135,"700.02"
+control TOI-700 rows in local toi.csv: 4

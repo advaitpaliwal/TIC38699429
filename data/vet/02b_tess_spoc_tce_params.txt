@@ -1,0 +1,33 @@
+<dv:modelParameter fitted="true" name="transitEpochBtjd" uncertainty="0.002118562" value="2970.064286109157"/>
+<dv:modelParameter fitted="false" name="eccentricity" uncertainty="0.0" value="0.0"/>
+<dv:modelParameter fitted="false" name="longitudeOfPeriDegrees" uncertainty="0.0" value="0.0"/>
+<dv:modelParameter fitted="false" name="planetRadiusEarthRadii" uncertainty="4.6864033" value="3.929460597900495"/>
+<dv:modelParameter fitted="false" name="semiMajorAxisAu" uncertainty="0.0018353575" value="0.05207228123548316"/>
+<dv:modelParameter fitted="true" name="minImpactParameter" uncertainty="0.46861953" value="0.9007013857177029"/>
+<dv:modelParameter fitted="false" name="starRadiusSolarRadii" uncertainty="0.00513509" value="0.16626399755477905"/>
+<dv:modelParameter fitted="false" name="transitDurationHours" uncertainty="0.16930898" value="1.5107561395056912"/>
+<dv:modelParameter fitted="false" name="transitIngressTimeHours" uncertainty="0.08465449" value="0.7553780697528456"/>
+<dv:modelParameter fitted="false" name="transitDepthPpm" uncertainty="3479.5417" value="31660.053342223506"/>
+<dv:modelParameter fitted="true" name="orbitalPeriodDays" uncertainty="1.8194939E-4" value="11.718684458330925"/>
+<dv:modelParameter fitted="true" name="ratioPlanetRadiusToStarRadius" uncertainty="0.2581031" value="0.2164871725876354"/>
+<dv:modelParameter fitted="true" name="ratioSemiMajorAxisToStarRadius" uncertainty="12.753534" value="48.46380960799095"/>
+<dv:modelParameter fitted="false" name="inclinationDegrees" uncertainty="0.8266681" value="88.93509487349051"/>
+<dv:modelParameter fitted="false" name="equilibriumTempKelvin" uncertainty="12.862348" value="229.76150410925771"/>
+<dv:modelParameter fitted="false" name="effectiveStellarFlux" uncertainty="0.14747997" value="0.6586126443921678"/>
+<dv:modelParameter fitted="false" name="starDensitySolarDensity" uncertainty="8.791553" value="11.136058252390155"/>
+<dv:planetCandidate expectedTransitCount="21" modelChiSquare2="5.276993" modelChiSquareDof2="15" modelChiSquareGof="67.80144" modelChiSquareGofDof="150" observedTransitCount="16" planetNumber="1" suspectedEclipsingBinary="false" chiSquare2="4.475816" chiSquareDof2="24.097277" chiSquareGof="73.29489" chiSquareGofDof="71.0" epochTjd="2970.0709253451614" maxMultipleEventSigma="11.936449" maxSesInMes="4.6545486" maxSingleEventSigma="4.9131427" orbitalPeriodInDays="11.718294" robustStatistic="11.948132" thresholdForDesiredPfa="-1.0" trialTransitPulseDurationInHours="1.0">
+<dv:oddEvenTransitDepthComparisonStatistic value="1.02752485E-4" significance="0.99191225"/> <dv:shorterPeriodComparisonStatistic planetNumber="0" value="0.0" significance="-1.0"/>
+<dv:shorterPeriodComparisonStatistic planetNumber="0" value="0.0" significance="-1.0"/>
+<dv:longerPeriodComparisonStatistic planetNumber="0" value="0.0" significance="-1.0"/> <dv:oddEvenTransitDepthComparisonStatistic value="1.02752485E-4" significance="0.99191225"/> <dv:shorterPeriodComparisonStatistic planetNumber="0" value="0.0" significance="-1.0"/>
+<dv:secondaryEventResults> <dv:comparisonTests> <dv:albedoComparisonStatistic value="0.41570807" significance="0.3388118"/> <dv:tempComparisonStatistic value="1.447027" significance="0.07394468"/>
+<dv:planetParameters> <dv:geometricAlbedo value="655.29645" uncertainty="1573.9325"/> <dv:planetEffectiveTemp value="1797.3274" uncertainty="1083.2247"/>
+<dv:msTicCentroidOffsets> <dv:meanRaOffset value="-3.023691" uncertainty="3.0970745"/> <dv:meanDecOffset value="3.2725236" uncertainty="2.9129813"/> <dv:meanSkyOffset value="4.4555717" uncertainty="2.9991677"/> </dv:msTicCentroidOffsets>
+sector 61 <dv:skyOffset value="7.315748" uncertainty="4.4128356"/>
+sector 62 <dv:skyOffset value="1.7356211" uncertainty="1.9707406"/>
+sector 63 <dv:skyOffset value="5.907994" uncertainty="1.6712688"/>
+sector 64 <dv:skyOffset value="0.0" uncertainty="-1.0"/>
+sector 65 <dv:skyOffset value="1.3001981" uncertainty="3.3523893"/>
+sector 66 <dv:skyOffset value="13.275378" uncertainty="2.7736237"/>
+sector 67 <dv:skyOffset value="0.0" uncertainty="-1.0"/>
+sector 68 <dv:skyOffset value="4.2854548" uncertainty="4.0477943"/>
+sector 69 <dv:skyOffset value="0.0" uncertainty="-1.0"/>

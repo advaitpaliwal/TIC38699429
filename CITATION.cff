@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this candidate, its ephemeris or this code, please cite it as below."
+title: "TIC 38699429.01: a 2.7 Earth-radius, 11.72-day transiting planet candidate in the habitable zone of the M dwarf TIC 38699429"
+type: dataset
+authors:
+  - family-names: Paliwal
+    given-names: Advait
+    email: advaitpaliwal@gmail.com
+version: "1.0"
+date-released: "2026-10-23"
+license: CC-BY-4.0
+repository-code: "https://github.com/advaitpaliwal/TIC38699429"
+url: "https://github.com/advaitpaliwal/TIC38699429"
+abstract: >-
+  A transit-like signal on TIC 38699429, an M dwarf (Teff 2914 K, 0.166 solar
+  radii) at 57.5 pc in the TESS southern continuous viewing zone, found on
+  2026-10-20 in a search of 3,883 nearby red dwarfs. TESS-SPOC photometry from
+  31 sectors (2018 to 2023) shows 60 transits. Period 11.718167 +/- 0.000013 d,
+  mid-transit BJD_TDB 2459196.67148 +/- 0.00072, depth 22,130 +/- 750 ppm,
+  duration 1.47 h, radius 2.72 +/- 0.13 Earth radii, insolation 0.66 +/- 0.15
+  times Earth's. TRICERATOPS false-positive probability 0.064 with no neighbours
+  removed and 0.026 with the pixel-excluded neighbours removed. A planet
+  candidate, not a validated or confirmed planet.
+keywords:
+  - exoplanet
+  - transit
+  - TESS
+  - planet candidate
+  - habitable zone
+  - M dwarf
+  - TIC 38699429

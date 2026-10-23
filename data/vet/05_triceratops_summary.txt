@@ -1,0 +1,30 @@
+TRICERATOPS 1.1.0, 10 runs (seeds 1000-1009), N=1e6, all 75 field stars kept, 31 TESS-SPOC sectors with SPOC apertures, input = search npz folded, 10-min bins, depth 21018 ppm, err 2099 ppm, 72 bins
+0 FPP 0.0656 NFPP 0.0359
+1 FPP 0.0824 NFPP 0.0522
+2 FPP 0.0615 NFPP 0.0367
+3 FPP 0.0610 NFPP 0.0344
+4 FPP 0.0609 NFPP 0.0386
+5 FPP 0.0660 NFPP 0.0402
+6 FPP 0.0625 NFPP 0.0412
+7 FPP 0.0634 NFPP 0.0376
+8 FPP 0.0585 NFPP 0.0363
+9 FPP 0.0578 NFPP 0.0366
+FPP mean 0.0640 sd 0.0066 range 0.0578-0.0824
+NFPP mean 0.0390 sd 0.0048 range 0.0344-0.0522
+
+mean probability by scenario and star (all 10 runs):
+ID        scenario
+38699429  TP          0.8812
+          PTP         0.0529
+38696697  NEB         0.0329
+38699429  STP         0.0220
+38696697  NEBx2P      0.0023
+38699430  NEB         0.0023
+38699429  EBx2P       0.0021
+          DTP         0.0019
+38699430  NEBx2P      0.0010
+38699429  PEBx2P      0.0007
+38696700  NEB         0.0003
+          NEBx2P      0.0001
+38699429  SEBx2P      0.0001
+          BEB         0.0000

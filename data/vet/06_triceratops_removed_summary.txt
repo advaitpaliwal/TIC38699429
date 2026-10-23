@@ -1,0 +1,28 @@
+trc_rm runs 10 n_stars [52] n_tdepth>0 [1] depth_ppm 21018 err_ppm 2099
+0 FPP 0.0308 NFPP 0.0000
+1 FPP 0.0318 NFPP 0.0000
+2 FPP 0.0257 NFPP 0.0000
+3 FPP 0.0275 NFPP 0.0000
+4 FPP 0.0232 NFPP 0.0000
+5 FPP 0.0268 NFPP 0.0000
+6 FPP 0.0222 NFPP 0.0000
+7 FPP 0.0269 NFPP 0.0000
+8 FPP 0.0231 NFPP 0.0000
+9 FPP 0.0220 NFPP 0.0000
+FPP mean 0.0260 sd 0.0034 range 0.0220-0.0318
+NFPP mean 0.0000 sd 0.0000 range 0.0000-0.0000
+ID        scenario
+38699429  TP          0.9170
+          PTP         0.0551
+          STP         0.0229
+          EBx2P       0.0022
+          DTP         0.0019
+          PEBx2P      0.0007
+          SEBx2P      0.0001
+          BEB         0.0000
+          BEBx2P      0.0000
+          DEBx2P      0.0000
+          BTP         0.0000
+          PEB         0.0000
+          EB          0.0000
+          DEB         0.0000
