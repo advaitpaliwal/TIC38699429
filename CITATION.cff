@@ -1,26 +1,31 @@
 cff-version: 1.2.0
 message: "If you use this candidate, its ephemeris or this code, please cite it as below."
-title: "TIC 38699429.01: a 2.7 Earth-radius, 11.72-day transiting planet candidate in the habitable zone of the M dwarf TIC 38699429"
+title: "TIC 38699429.01: independent detection and vetting of a 2.7 Earth-radius, 11.72-day transit candidate in the conservative habitable zone of the M dwarf TIC 38699429"
 type: dataset
 authors:
   - family-names: Paliwal
     given-names: Advait
     email: advaitpaliwal@gmail.com
-version: "1.0"
-date-released: "2026-10-23"
+version: "1.1"
+date-released: "2026-11-11"
 license: CC-BY-4.0
 repository-code: "https://github.com/advaitpaliwal/TIC38699429"
 url: "https://github.com/advaitpaliwal/TIC38699429"
 abstract: >-
-  A transit-like signal on TIC 38699429, an M dwarf (Teff 2914 K, 0.166 solar
-  radii) at 57.5 pc in the TESS southern continuous viewing zone, found on
-  2026-10-20 in a search of 3,883 nearby red dwarfs. TESS-SPOC photometry from
-  31 sectors (2018 to 2023) shows 60 transits. Period 11.718167 +/- 0.000013 d,
-  mid-transit BJD_TDB 2459196.67148 +/- 0.00072, depth 22,130 +/- 750 ppm,
-  duration 1.47 h, radius 2.72 +/- 0.13 Earth radii, insolation 0.66 +/- 0.15
-  times Earth's. TRICERATOPS false-positive probability 0.064 with no neighbours
-  removed and 0.026 with the pixel-excluded neighbours removed. A planet
-  candidate, not a validated or confirmed planet.
+  Independent detection and vetting of a transit signal on TIC 38699429, an M
+  dwarf (Teff 2914 K, 0.166 solar radii) at 57.5 pc in the TESS southern
+  continuous viewing zone. The signal was first posted publicly by Benoit
+  (2026, Zenodo, doi:10.5281/zenodo.23598218) and also by Reckling (2026,
+  Zenodo, doi:10.5281/zenodo.23635149); this record makes no claim of first
+  detection. TESS-SPOC photometry from 31 sectors (2018 to 2023) shows 60
+  transits. Period 11.718167 +/- 0.000013 d, mid-transit BJD_TDB 2459196.67148
+  +/- 0.00072, depth 22,130 +/- 750 ppm, duration 1.47 h, radius 2.72 +/- 0.13
+  Earth radii, insolation 0.66 +/- 0.15 times Earth's, inside the conservative
+  habitable zone (Kopparapu et al. 2013). Difference images rule out the 25 Gaia
+  stars within 150 arcsec brighter than G = 20.5. TRICERATOPS false-positive
+  probability 0.064 with no neighbours removed and 0.026 with the
+  pixel-excluded neighbours removed. A planet candidate, not a validated or
+  confirmed planet.
 keywords:
   - exoplanet
   - transit
@@ -29,3 +34,20 @@ keywords:
   - habitable zone
   - M dwarf
   - TIC 38699429
+references:
+  - type: data
+    title: "PHANTOM Candidate TIC 38699429: An 11.71815-Day Transit Signal in TESS Photometry"
+    authors:
+      - family-names: Benoit
+        given-names: Nick
+    year: 2026
+    doi: 10.5281/zenodo.23598218
+    url: "https://zenodo.org/records/23598218"
+  - type: data
+    title: "TIC 38699429: an unconfirmed transit candidate around a faint nearby M dwarf, from a pre-registered search of public TESS-SPOC light curves"
+    authors:
+      - family-names: Reckling
+        given-names: Dennis
+    year: 2026
+    doi: 10.5281/zenodo.23635149
+    url: "https://zenodo.org/records/23635149"

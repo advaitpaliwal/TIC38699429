@@ -1,6 +1,8 @@
-# TIC 38699429.01: a 2.7 Earth-radius planet candidate in the habitable zone of an M dwarf
+# TIC 38699429.01: independent detection and vetting of a 2.7 Earth-radius transit candidate in the habitable zone of an M dwarf
 
-Discovered by Advait Paliwal on 2026-10-20 in public TESS full-frame-image photometry (search result file `data/search/38699429_search_result.json`, written 2026-10-20 11:49 UTC).
+**Nick Benoit posted this signal first**, on Zenodo on 2026-10-23 at 13:52 UTC ([doi:10.5281/zenodo.23598218](https://doi.org/10.5281/zenodo.23598218)), about three hours before this record's v1.0 (2026-10-23 16:43 UTC). Dennis Reckling posted it on 2026-10-25 ([doi:10.5281/zenodo.23635149](https://doi.org/10.5281/zenodo.23635149)). TESS-SPOC data validation had already reported it as a threshold-crossing event. This record is an independent detection and vetting of that signal and makes no claim of first detection. My search flagged it on 2026-10-20 (`data/search/38699429_search_result.json`), before either record was posted.
+
+What this record adds: difference-image fits that test each of the 25 Gaia stars within 150″ brighter than G = 20.5, raw-flux (SAP) and per-product depth checks, and TRICERATOPS runs with and without the neighbours the pixels rule out.
 
 ## Summary
 
@@ -15,9 +17,16 @@ False-positive probability (TRICERATOPS v1.1.0, 10 runs of 10⁶ draws, no contr
 
 Both values are above the 0.015 threshold for statistical validation.
 
-"Habitable zone" here means the 0.25 to 1.7 times Earth's insolation window used by the search. No habitable-zone boundary model is applied.
+"Habitable zone" here means the conservative habitable zone of Kopparapu et al. (2013, ApJ 765, 131): 0.863 to 0.229 times Earth's insolation at Teff = 2914 K. The insolation, 0.66 ± 0.15, is inside it.
+
+## Earlier reports
 
 As of 2026-10-16 the star is not a TOI or a CTOI (ExoFOP), and it is not in the NASA Exoplanet Archive. TESS-SPOC data validation for the multi-sector run over Sectors 56 to 69 reported it as a threshold-crossing event (P = 11.7183 d, MES 11.9, not flagged as an eclipsing binary, radius 3.9 ± 4.7 R⊕), but it never became a TOI (`data/vet/02b_tess_spoc_tce_params.txt`, `data/vet/02_known.txt`).
+
+- Benoit, N. 2026, *PHANTOM Candidate TIC 38699429: An 11.71815-Day Transit Signal in TESS Photometry*, Zenodo, v1.0 [doi:10.5281/zenodo.23598218](https://doi.org/10.5281/zenodo.23598218) (2026-10-23 13:52 UTC); latest v1.4 [doi:10.5281/zenodo.23965571](https://doi.org/10.5281/zenodo.23965571).
+- Reckling, D. 2026, *TIC 38699429: an unconfirmed transit candidate around a faint nearby M dwarf, from a pre-registered search of public TESS-SPOC light curves*, Zenodo, v1.0 [doi:10.5281/zenodo.23635149](https://doi.org/10.5281/zenodo.23635149) (2026-10-25 06:37 UTC); latest v4 [doi:10.5281/zenodo.23854096](https://doi.org/10.5281/zenodo.23854096).
+
+Their latest versions give P = 11.7181493 ± 0.0000090 d, depth 26,349 ± 1,247 ppm, 2.81 R⊕ and FPP 0.044–0.059 with all neighbours (Benoit), and P = 11.718179 d, depth 24,621 ± 893 ppm, about 2.8 R⊕ and FPP 0.19 (Reckling); these match the period and radius here within 1σ, with depths 11–19% deeper than the 22,130 ppm here.
 
 | | |
 |---|---|
@@ -78,7 +87,12 @@ Some scripts use paths relative to the original working folders (for example the
 
 ## Credits
 
-This work uses data collected by the TESS mission, funded by the NASA Science Mission Directorate, obtained from the Mikulski Archive for Space Telescopes (MAST), including TESS-SPOC (Caldwell et al. 2020) light curves, TGLC (Han & Brandt 2023) photometry and TESScut cutouts. It uses data from the European Space Agency mission Gaia (https://www.cosmos.esa.int/gaia), processed by the Gaia Data Processing and Analysis Consortium, and the TESS Input Catalog (Stassun et al. 2019; Paegert et al. 2021). Full references are in the note.
+This work uses data collected by the TESS mission, funded by the NASA Science Mission Directorate, obtained from the Mikulski Archive for Space Telescopes (MAST), including TESS-SPOC (Caldwell et al. 2020) light curves, TGLC (Han & Brandt 2023) photometry and TESScut cutouts. It uses data from the European Space Agency mission Gaia (https://www.cosmos.esa.int/gaia), processed by the Gaia Data Processing and Analysis Consortium, and the TESS Input Catalog (Stassun et al. 2019; Paegert et al. 2021). Full references are in the note. The signal was first posted by Benoit (2026) and also by Reckling (2026); see Earlier reports.
+
+## Versions
+
+- v1.0 (2026-10-23): first release of this record.
+- v1.1 (2026-11-11): credits the earlier public reports by Benoit (2026) and Reckling (2026), removes discovery wording, and states the habitable-zone basis (Kopparapu et al. 2013 conservative zone). Note revised to match. No measured value changed.
 
 ## Licence and citation
 
